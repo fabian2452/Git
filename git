@@ -1,0 +1,69 @@
+Autor = Fabian Parra
+Fecha = 01-2023
+
+----------------------------------------------------------------
+
+
+
+-CONFIGURACION BASICA DE GIT Y COMANDOS DE MAC-
+
+
+-ESTA ES LA CONFIGURACION INICIAL DE GIT-
+git config --global user.name "fabian parra"
+git config --global user.email fabian.parra2528@gmail.com
+
+
+-ESTA SENTENCIA SE USA PARA SELECIONAR EL EDITOR-
+git config --global code.editor "code --wait"
+
+
+-SE USA PARA ABRIR EL EDITOR Y VER LA CONFIGURACION-
+git config --global -e
+
+
+-SE USA PARA QUE AL MOMENTO DE SUBIR ARCHIVOS DESDE MAC O WINDOWS, NO EXISTAN ERRORES DE LECTURA- 
+git config --global core.autocrlf input
+
+
+-SE USA PARA VER TODA LA CONFIGURACION EXISTENTE DE GIT-
+git config --global -h
+
+-INICIAR GIT-
+git init
+
+-AGREGAR ARCHIVOS ETAPA STAGED-
+git add
+
+-AGREGAR ARCHIVOS ETAPA COMMIT-
+git commit -m 
+
+-VER CAMBIOS-
+git log --oneline
+
+-VER LA RAMA QUE-
+git branch
+
+-CREAR NUEVA RAMA-
+git checkout -b ramab
+
+-VER STATUS-
+git status
+
+-COMANDO PARA LISTAR TODOS LOS DIRECTIORIOS-
+ls
+
+-COMANDO PARA MOSTRAR TODOS LOS ARCHIVOS-
+ls -la
+ls -a
+
+
+-COMANDO PARA MOVERSE ENTRE DIRECTORIOS Y SALIR DE ESTOS-
+cd
+cd ..
+
+-COMANDO PARA VER EN QUE RUTA ME ENCUENTRO-
+pdw
+
+-CREAR Y BORRAR DIRECTORIOR-
+mkdir
+rmdir
